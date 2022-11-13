@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Accessibility Checklist</title>
+</head>
+<body>
+  <button id="helpButton">Help Manual</button><br>
+  <h1 id="title" style="margin-top: 0.2em;">Accessibility Checklist</h1>
+
+  <div id="hintDiv">
+    <p class="hintHintText"> &nbspfor a hint</nobr></p>
+    <img src="./image/questionMark.png" style="float: right; margin-top: 0.25em;"></img>
+    <p class="hintHintText">Hover over&nbsp</nobr></p>
+  </div>
+
+  <div class="container">
+    <p class="questionText" >1. Do you have a reasonably large font size?</nobr></p>
+    <img class="questionMark" src="./image/questionMark.png" ></img><br clear="all"/>
+    <form id="q1">
+      <input type="radio" id="yes" name="qAnswer" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="qAnswer" value="no">
+      <label for="no">No</label>
+      <input type="radio" id="na" name="qAnswer" value="na">
+      <label for="na">N/A</label>
+    </form>
+
+    <p class="questionText">2. Is this another question?</nobr></p>
+    <img class="questionMark" src="./image/questionMark.png"></img><br clear="all"/>
+    <form id="q2">
+      <input type="radio" id="yes" name="qAnswer" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="qAnswer" value="no">
+      <label for="no">No</label>
+      <input type="radio" id="na" name="qAnswer" value="na">
+      <label for="na">N/A</label>
+    </form>
+
+  </div>
+
+  <div class="container" style="margin-top: 1em; height: 20em;">
+    <p>quantitative questions</p>
+
+  </div>
+
+  <div id="buttonDiv">
+    <button id="submit" class="endButton" style="margin-right: 1em;">Submit</button>
+    <button id="clear" class="endButton">Clear</button>
+  </div>
+
+  <script type="module" src="./js/input.js"></script>
+
+</body>
+</html>

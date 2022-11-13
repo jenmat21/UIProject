@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Accessibility Checklist</title>
+</head>
+<body>
+    <h1 id="title" style="margin-bottom: 1em;">Accessibility Checklist</h1>
+
+    <div class="container" style="height: 30em;">
+        <div class="scoreDiv">
+            <p class="outputText">YOUR ACCESSIBILITY SCORE:&nbsp</p>
+            <p class="outputText" id="scoreNum">0%</p>
+        </div>
+
+        <div class="rangeDiv">
+            <div class="rangeBox" id="rbLeft"><p class="rangeText">BAD</p></div>
+            <div class="rangeBox"><p class="rangeText">FAIR</p></div>
+            <div class="rangeBox"><p class="rangeText">GOOD</p></div>
+            <div class="rangeBox"><p class="rangeText">GREAT</p></div>
+            <div class="rangeBox"><p class="rangeText">EXCELLENT</p></div>
+
+            <div id="rangeBackground"></div>
+        </div>
+
+        <div>
+            <p class="outputText" style="float: none;">ACCESSIBILITY TIPS:</p>
+            <p class="tipText">1. You should use a bigger font size!!</p>
+            <p class="tipText">2. You shouldn't listen to these tips at all...</p>
+        </div>
+
+    </div>
+
+    <div id="buttonDiv">
+        <button id="backButton" class="endButton">Back</button>
+    </div>
+
+    <script type="module" src="./js/output.js"></script>
+</body>
+</html>
