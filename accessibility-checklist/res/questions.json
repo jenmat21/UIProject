@@ -1,0 +1,140 @@
+{
+	"1": {
+		"content": "If there is non-text content, are there text alternatives that are available to the user?",
+		"weight": 4,
+		"hint": "Some examples of non-text content are graphs, charts, pictures, art, videos, etc. They are a visual representation of information that you are trying to explain to the user. Some text alternatives would be large/medium print, braille, speech, symbols, etc. to help explain the non-text content.",
+		"tip": "Adding text alternatives to non-text content is important so that all users have the opportunity to understand the information you are trying to present. Maybe adding sections above or below the non-text content with text alternatives i.e. large/medium print, braille, speech, symbols would help make your website more accessible."
+	},
+	"2": {
+		"content": "If there is timed-based media, is there a text description above or below it explaining its contents?",
+		"weight": 4,
+		"hint": "Some examples of timed-based media would be videos, clips, films/movies, etc. A real life example of a text description would be when you are about to watch a film/video on any streaming service like Netflix, Hulu, etc., an overview is provided to summarize the film. Youtube also has a section underneath all their videos/clips, where the author can write a description.",
+		"tip": "Using text descriptions help provide an overview of the time-based media. The descriptions are usually straightforward and highlight on the major points in the media."
+	},
+	"3": {
+		"content": "If a non-text content invokes user input, is there an explanation provided in the the form of text to explain what is needed from the user to continue?",
+		"weight": 3,
+		"hint": "Some examples of non-text content are graphs, charts, pictures, art, videos, etc. An example of this would be when playing a video game, if it's asking the user to perform an action, usually there is also text on the screen telling them what they need to do before the game can continue.",
+		"tip": "If the non-text content requires user input, adding text in the form of a question or explanation can elevate any confusion and provide clarification on what is needed from the user. The text needs to be simple and easy to follow along because it can cause the user experience to be unenjoyable if the user doesn't know what to do after reading the text."
+	},
+	"4": {
+		"content": "For any time-based media, are captions/subtitles provided?",
+		"weight": 5,
+		"hint": "Some examples of timed-based media would be videos, clips, films/movies, etc. To activate captions/subtitles, there is usually an icon at the bottom or top corner of the video that you can click on. For example, Youtube uses the icon 'CC', which stands for 'Closed Captions', at the bottom their videos that will display captions if you clicked on it.",
+		"tip": "Captions/subtitles are important to incorporate with any time-based media. They are useful if the language spoken is unfamiliar to the user, the user is unable to hear well or if the user just likes having them on. Captions can be turned off and on based on the user’s preference. The captions should explain what is spoken between individuals and any sounds that are needed to move the plot forward that is not displayed on the screen."
+	},	
+	"5": {
+		"content": "If there are ads or other time-based media, are you able to pause/unpause and change the audio settings?",
+		"weight": 5,
+		"hint": "Some examples of timed-based media would be videos, clips, films/movies, etc. The settings to pause/unpause and the audio should be appear once you hover over the ad/time-based media.",
+		"tip": "Ads and other time-based media need to have the option to alter their setting options based on the user's preferences. Usually they appear once the user hovers over the media but it's up to you."
+	},	
+	"6": {
+		"content": "Are the colors used a good contrast from one another so that everything can be easily read and seen?",
+		"weight": 4,
+		"hint": "One good contrast combination is a white background and black text. The combination of colors can range but the goal is to make sure that all the information on the page is readable.",
+		"tip": "Color combinations are important so that every user is able to utilize the page without any problems. If the colors don't provide a good contrast, it may cause the text to be unreadable. The most basic color combination is a white background with black text. If you would like to incorporate different colors, a good rule of thumb is to make sure that the contrast between the colors is simple but placed purposefully to achieve an effortless look."
+	},	
+	"7": {
+		"content": "Are you able to resize the fonts up to 200 percent without loss of functionality or content?",
+		"weight": 2,
+		"hint": "Depending on the website, the resize feature could be in different locations. One way to resize is to use the icon with three dots in one column in the top right corner of your screen. If you click on it, there is a section where you can resize the font size.",
+		"tip": "Being able to resize helps users who are unable to see well. This helps them read all the information on the screen to their preferences. You are able to implement this feature many different ways. One way to resize is to use the icon with three dots in one column in the top right corner of your screen. If you click on it, there is a section where you can resize the font size. The information needs to stay consistent between the different fonts."
+	},	
+	"8": {
+		"content": "Is your keyboard able to access everything on the page and navitage it well?",
+		"weight": 5,
+		"hint": "The keyboard can be the physical keyboard on your computer or the virtual keyboard on a touchscreen. If some of the functionality is unable to be performed on the virtual keyboard, alternatives should be provided.",
+		"tip": "The keyboard is an essential part of performing different actions on a website like providing user input. All the functionality on a physical keyboard needs to be accessible on a virtual keyboard as well."
+	},	
+	"9": {
+		"content": "If the page you are on provides a time limit, are you able to perform at least one of the following actions to extend the time limit? (1) Turn off the time limit, (2) Adjust the time limit to your preference that is at least 10 times the length of the default time, (3) Before the time limit expires are you able to extend the limit by selecting an option to within 20 seconds, (4) If there is a real-time exception like an auction, (5) Time limit is more than 20 hours.",
+		"weight": 3,
+		"hint": "All of these options are valid and provide the user extra time to perform an action. If you are entering in your billing and credit card information, the website might only allow you to work on this specific page for 10 minutes. As the user, you should have the option to extend the time limit.",
+		"tip": "When a user encounters a time limit on a specific page, they should be able to perform at least one of these actions: (1) Turn off the time limit, (2) Adjust the time limit to your preference that is at least 10 times the length of the default time, (3) Before the time limit expires are you able to extend the limit by selecting an option to within 20 seconds, (4) If there is a real-time exception like an auction, (5) Time limit is more than 20 hours."
+	},	
+	"10": {
+		"content": "Is there any possibility that this website can cause you a seizure?",
+		"weight": 2,
+		"hint": "Websites are unable to contain anything that flashes more than three times in any one second.",
+		"tip": "For every one second, three or less flashes can be broadcasted to prevent seizures."
+	},	
+	"11": {
+		"content": "Are the pages titled?",
+		"weight": 4,
+		"hint": "Titles would be at the top of the page and clearly describe the contents of the page in a couple of words.",
+		"tip": "Title pages provide the user with enough information on what they are about to expect from the page that they are looking at. If the pages aren't titled, it may cause confusion and a bad user experience. The titles should be at the top of every page with a couple of words describing the contents of that page."
+	},	
+	"12": {
+		"content": "Are all the link texts well defined?",
+		"weight": 4,
+		"hint": "For example, if you have a URL of the UM-Dearborn home page and you would like to link it. The best way would be to state, 'UM-Dearborn Home Page' for the link text not 'Link'.",
+		"tip": "Links are a great tool for providing more information to the user but specifying the link text is important to elevate any vagueness that the broad link text provides. Also, users, who are unable to see well, may use a screen reader or other devices to listen to all the information on a page read aloud to them so making sure that the link text clearly states where it will take them will help give a good user experience."
+	},	
+	"13": {
+		"content": "If your target audience speaks a specfic language, is all the text in that specific langage with phrases that can be easily understood? If not, are translations provided?",
+		"weight": 5,
+		"hint": "Your target audience is a group of people who you think will most likely view your website. For example, if your target audience are older folks in the United States, then writing the information in English and using phrases that are common to them will help your target audience be able to use your website efficiently and have a good user experience.",
+		"tip": "Your target audience is a group of people who you think will most likely view your website. For example, if your target audience are older folks in the United States, then writing the information in English and using phrases that are common to them will help your target audience be able to use your website efficiently and have a good user experience."
+	},	
+	"14": {
+		"content": "If there are abbreviations, is the expanded form provided at least once?",
+		"weight": 3,
+		"hint": "An example of an abbreviation is 'USA', which stands for the 'United States of America'. If the abbreviation that is used is not common, then providing the elongated version of the abbreviation would be helpful to your users to understand where you're coming from.",
+		"tip": "The elongated version of an unpopular abbreviation can be written out next to the first time you use the abbreviation or it can also be placed at the bottom of the page. Some users may be unfamiliar with the abbreviations used, which can cause the user to be confused creating a bad user experience."
+	},
+	"15": {
+		"content": "Is there a glossary provided?",
+		"weight": 1,
+		"hint": "A glossary is usually at the bottom of the page. It provides definitions and pronunciations to words that were used.",
+		"tip": "Glossaries can be beneficial for websites that contain uncommon words. For example, if your website contains a lot of medical jargon, maybe adding a glossary at the bottom of each page helps the user understand the material better."
+	},
+	"16": {
+		"content": "Are all the navigation settings written the same way on each page and placed in similar locations from page to page?",
+		"weight": 5,
+		"hint": "The navigation settings provide shortcuts to other pages of the website. For example, if there is a search bar at the top right corner of the page, then it should be consistent on all the other pages. Or if a website has the feature where you can click on a company's icon returning you to the home page, then this feature should be provided on every page in the same location.",
+		"tip": "The navigation settings need to stay consistent so that the user is able to transverse through your website easily. For example, if your website gives the option for the user to return to the home page on every page. Maybe creating one icon and placing it in the same location on every page will help with readability. Also using the same wording when you are trying to access the same page will help make your website cohesive."
+	},
+	"17": {
+		"content": "Are labels and instructions provided for all user input?",
+		"weight": 4,
+		"hint": "The labels or instructions should be right next to the space provided for any user input.",
+		"tip": "Instructions and labels need to be provided so that the user is able to input any information asked. The instructions and labels need to be easily understood to provide the best user response. They should also be placed right next to the space where the user needs to input any information."
+	},
+	"18": {
+		"content": "Do error messages pop up when you enter in invalid information?",
+		"weight": 2,
+		"hint": "For example, if you are entering in your billing and credit card information and you missed a section or provided invalid information, then the system should display a correct error message.",
+		"tip": "Error messages help the user notice if they have entered any invalid information and provide them an opportunity to fix it. The message needs to be straight to the point and needs to be noticeable. For noticeability, maybe putting the error message in red and placing it in the middle of the page will help."
+	},
+	"19": {
+		"content": "Is contact information provided that the user can use to reach out to customer service?",
+		"weight": 3,
+		"hint": "The customer service information is usually provided at the bottom of the main page and can be accessed from the navigation settings at the top of every page. If the website also provides a search bar, you might be able to find it using this feature. The information that is usually provided is a cell phone number and an email address.",
+		"tip": "A customer service section can be useful for users to acquire more information or clarification. The customer service information contains an email and phone number. Most customer service information is provided at the bottom of the main page and can be accessed from the navigation settings at the top of every page but it's up to you."
+	},
+	"20": {
+		"content": "In content implemented using markup languages, elements have complete start and end tags?",
+		"weight": 1,
+		"hint": "Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.",
+		"tip": "In many markup languages, errors can occur if elements are missing start or ending tags. Make sure your elements are complete, example:  starting bracket  ' [ ' and ending bracket ' ] '"
+	},
+	"21": {
+		"content": "In content implemented using markup languages, do no elements contain duplicate attributes?",
+		"weight": 2,
+		"hint": "This pertains to any elements that have been initialized within the code of the software. All elements should be initialized once, with singular attributes. Elements should not be inilialized more than once with different attributes.",
+		"tip": "In many markup languages, errors can occur if elements have duplicate attributes. Make sure to specifiy each elements correctly and initilize them only once. For example element x = 0 is initialized but so is x = 2, x may not be able to be both 0 and 2 at once, make sure to to change one or the other to fit your software. Example result: x = 0, y = 2."
+	},
+	"22": {
+		"content": "In content implemented using markup languages, all IDs are unique, except where the specifications allow these features?",
+		"weight": 2,
+		"hint": "This pertains to any elements that have been initialized within the code of the software. All ID's should be initialized once. ID's should not be inilialized more unless there is a special circumstance or language requirement.",
+		"tip": "In many markup languages, error can occur if more than one ID is initialized using the same name. Make sure all IDs in regards to your software are unique in name."
+	},
+	"23": {
+		"content": "Does all media content have an alternative attribute?",
+		"weight": 4,
+		"hint": "When they cannot be loaded, media display their alternative text attributes in their place.",
+		"tip": "Add alternative attributes to all media tags."
+	}
+}

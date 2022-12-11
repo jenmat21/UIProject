@@ -1,0 +1,44 @@
+#checklist p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    max-width: 100%;
+    position: relative;
+    display: inline;
+}
+
+#checklist form {
+    margin-bottom: 30px;
+}
+
+#hint-instruction {
+    height: 1.8em;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+#hint-instruction p {
+    margin-top: 0.35em;
+    float: right; 
+    font-size: 1.1em;
+    color: #FFFFFF;
+}
+
+.hint {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    padding: 10px 8px;
+    background-color: #EEEEEE;
+
+    position: absolute;
+    width: 60%;
+    opacity: 0;
+    z-index: -1;
+}
+
+.question-mark:hover + .hint {
+    opacity: 1;
+    z-index: 1;
+}
